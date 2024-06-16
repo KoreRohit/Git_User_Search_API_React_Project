@@ -1,0 +1,35 @@
+
+.App i{
+  font-size: 50px;
+}
+.App button:hover{
+  background-color: orange;
+}
+.user-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(275deg,#2980b9,#8e44ad);
+  font-size: 20px;
+  box-shadow: 10px 10px 10px 0.5px gray;
+  
+}
+
+.user-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+
+.error {
+  color: red;
+}
